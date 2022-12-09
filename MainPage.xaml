@@ -16,23 +16,31 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello this is my first MAUI APP  !"
+                Text="Application de gestion de parc automobile  !"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to HospiFace"
+              
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
+            <Entry x:Name="email"
+               Placeholder="Enter text" 
+                   MaxLength="30"/>
+
+            <Entry x:Name="password"
+               Placeholder="Enter text" 
+                   MaxLength="40"/>
+
             <Button
                 x:Name="CounterBtn"
-                Text="Click me more time"
+                Text="Connexion"
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Clicked="connexion"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

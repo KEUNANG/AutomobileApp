@@ -6,8 +6,9 @@
     xmlns:local="clr-namespace:MauiApp2"
     Shell.FlyoutBehavior="Disabled">
 
+    
     <ShellContent
-        Title="Home"
+        Title="Login "
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
